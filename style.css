@@ -200,17 +200,21 @@ h3{
 }
 
 .primary-btn{
+    
     background:var(--cream);
     color:var(--dark-green);
+    
 }
 
 .primary-btn:hover{
     transform:translateY(-5px);
+     background:white;
 }
 
 .secondary-btn{
     border:2px solid white;
-    color:white;
+    color:var(--dark-green);
+    background:var(--cream);
 }
 
 .secondary-btn:hover{
