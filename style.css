@@ -210,7 +210,16 @@ h3{
     transform:translateY(-5px);
      background:white;
 }
+.resume-btn{
+    background:#89D7B7;
+    color:#1A312C;
+}
 
+.resume-btn:hover{
+    background:#FFF4E1;
+    color:#1A312C;
+    transform:translateY(-5px);
+}
 .secondary-btn{
     border:2px solid white;
     color:var(--dark-green);
