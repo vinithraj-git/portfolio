@@ -20,9 +20,8 @@ const observer = new IntersectionObserver(
 );
 
 const hiddenElements = document.querySelectorAll(
-    ".skill-card, .project-card, .contact-card, .section-title"
+    ".skill-card, .experience-card, .project-card, .contact-card, .section-title"
 );
-
 hiddenElements.forEach((el) => observer.observe(el));
 
 
