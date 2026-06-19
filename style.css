@@ -211,7 +211,7 @@ h3{
      background:white;
 }
 .resume-btn{
-    background:#89D7B7;
+    background:var(--cream);
     color:#1A312C;
 }
 
